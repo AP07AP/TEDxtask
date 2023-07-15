@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:red;
+  /* padding: 20px; */
+  /* margin-bottom: 40px; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  background-color: black;
+}
+section a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.677);
+  
+  
+}
+section a:hover{
+  color: blue;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a:hover{
+  color: red;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  color: rgb(238, 231, 231);
+}
+
+main {
+  /* padding: 20px; */
+  background-image: url("D:\TEDx task\tedx-website\public\bg.jpeg") ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  /* height: fit-content;
+  width: fit-content; */
+  background-size: cover;
+}
+
+section {
+  /* margin-bottom: 40px; */
+ 
+}
+
+h2 {
+  font-size: 24px;
+  color: black;
+}
+p{
+  /* background-color: #fff; */
+  color: beige;
+}
+
+ul {
+  list-style-type: none;
+  /* margin-left: 20px; */
+  color: rgb(237, 230, 230);
+  /* background: #000; */
+  display: inline;
+
+}
+
+footer.Footer {
+  /* background-color: #d3090961; */
+  /* padding: 40px; */
+  /* margin-top: 40px; */
+  margin-bottom: 0px;
+  
+}
+
+.Footer-content {
+  display: block;
+  /* justify-content: space-between; */
+  align-items: center;
+ background-image: url("D:\TEDx task\tedx-website\public\bg2.jpeg") ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  /* height: fit-content;
+  width: fit-content; */
+  background-size: cover;
+  /* background-image: url("D:\TEDx task\tedx-website\public\ted.jpeg") ; */
+  
+}
+
+.Footer-logo img {
+  /* display: block; */
+  margin-top: 20px;
+  align-content: center;
+  width: 200px;
+  background-color: black;
+
+}
+
+.Footer-links {
+  display: block;
+  gap: 40px;
+}
+
+.Footer-section {
+  flex: 1;
+}
+
+.Footer-section-title {
+  font-size: 20px;
+  color: black;
+  /* margin-bottom: 10px; */
+}
+
+.Footer-section-list {
+  list-style-type: none;
+  padding: 0;
+  display:inline;
+}
+
+.Footer-section-list li {
+  margin-bottom: 5px;
+  display: inline;
+  margin-left: 12px;
+}
+
+.Footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+  border-top: 1px solid #e8d6d6;
+  padding-top: 20px;
+  background-color: grey;
+}
+
+.Footer-bottom-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.Footer-bottom-text {
+  font-size: 14px;
+  color: white;
+}
+
+.Footer-bottom-links a:hover{
+  color: red;
+}
